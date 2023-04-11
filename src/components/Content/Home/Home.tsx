@@ -1,14 +1,24 @@
 import './Home.css'
+import { CiInstagram, CiLinkedin, CiFacebook, CiMail } from 'react-icons/ci';
+import logo from './../../../assets/cv.jpeg'
 
 const Home = () => {
   return (
     <div id="home" className="content-detail">
-        <h1>Home</h1>
       <div className="home">
         <img className="circle-image"
-             src="https://i.imgur.com/yXOvdOSs.jpg"
+             src={logo}
              alt="Circle"/>
-        <p className="text">Your text here</p>
+        <h2><b>Minh Tu Phan</b></h2>
+        <div className="typewriter">
+          <p>Hello! I am a software engineer.</p>
+        </div>
+        <div>
+          <CiInstagram/>
+          <CiLinkedin/>
+          <CiFacebook/>
+          <CiMail/>
+        </div>
       </div>
 
     </div>

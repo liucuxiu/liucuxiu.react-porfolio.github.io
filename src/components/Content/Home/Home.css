@@ -12,3 +12,38 @@
     object-fit: cover;
     margin-bottom: 20px;
 }
+
+.typewriter {
+    padding: 15px;
+}
+
+.typewriter p{
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid #f86767; /* The typewriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation:
+            typing 3.5s steps(40, end),
+            blink-caret .75s step-end infinite;
+}
+
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: #f86767; }
+}
+
+svg {
+    width: 30px;
+    height: 30px;
+}

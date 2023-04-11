@@ -1,0 +1,11 @@
+.work-detail {
+    width: 250px;
+    height: 250px;
+}
+
+.work-detail .work-image {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+}

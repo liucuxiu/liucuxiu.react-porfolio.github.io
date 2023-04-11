@@ -2,6 +2,8 @@ import './About.css'
 import Container from 'react-bootstrap/Container';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
+import logo from './../../../assets/cv.jpeg'
+
 const About = () => {
   return (
     <div id="about" className="about content-detail">
@@ -10,8 +12,8 @@ const About = () => {
         <Row >
           <Col md={4}>
               <img className="circle-image"
-                   src="https://i.imgur.com/yXOvdOSs.jpg"
-                   alt="Circle Image"/>
+                   src={logo}
+                   alt="Circle"/>
               <p className="text">Your text here</p>
           </Col>
           <Col>
