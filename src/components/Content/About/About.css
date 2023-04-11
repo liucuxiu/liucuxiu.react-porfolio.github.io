@@ -1,0 +1,40 @@
+.talking-box {
+    position: relative;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 1rem;
+    float: left;
+    box-shadow: 2px 6px 6px rgba(187, 184, 184, 0.25);
+
+}
+
+.arrow {
+    position: absolute;
+    top: 20px;
+    left: -20px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid #fff;
+}
+
+.content {
+    position: relative;
+}
+
+.content p {
+    margin: 0;
+    padding: 0;
+}
+
+.about {
+}
+
+.about .circle-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}

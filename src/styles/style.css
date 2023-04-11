@@ -1,0 +1,100 @@
+/* your website should have no margin on the body */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f9f9fe;
+    color: #2b2b2b;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: unset;
+}
+a:hover {
+    text-decoration: none;
+    color: unset;
+}
+
+/* make an at-least-full-height flex wrapper */
+.wrapper {
+    /* important styles */
+    display: flex;
+    min-height: 100vh;
+
+    /* extra styles */
+    margin: 0 auto;
+}
+
+.sidebar {
+    /* important styles */
+    flex-shrink: 0;
+    width: 350px; /* make this whatever you need */
+    height: 100vh;
+    overflow: auto;
+    position: sticky;
+    top: 0;
+    /* extra styles */
+    padding: 100px;
+    border-right: 1px solid rgba(0,0,0,.05);
+}
+
+.content {
+    /* important styles */
+    flex-grow: 1;
+    /* extra styles */
+    padding: 50px;
+}
+
+.content-detail {
+    padding: inherit;
+    height: 100vh;
+}
+.content-detail h1 {
+    font-weight: bold;
+}
+
+/* make the nav take up more room :P */
+ul.nav {
+    list-style-type: none;
+}
+
+
+.nav li {
+    display: flex;
+    align-items: center;
+    line-height: 5.5;
+}
+.nav li:hover {
+    color: #f86767
+}
+
+.nav li .icon {
+    margin-right: 10px;
+}
+.nav li {
+    font-weight: bold;
+}
+
+svg {
+    width: 30px;
+    height: 30px;
+}
+
+h1 {
+    padding-bottom: 50px;
+}
+
+.card {
+    margin: 10px;
+    padding: 1rem;
+    box-shadow: 2px 6px 6px rgba(187, 184, 184, 0.25);
+    border-radius: 20px;
+    background-color: white;
+    border: none;
+}
+
