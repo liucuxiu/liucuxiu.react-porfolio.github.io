@@ -27,12 +27,7 @@ const About = () => {
                   convallis, elit enim rhoncus orci, fermentum condimentum lectus neque
                   vel nisl. Nunc ac dui vitae urna tincidunt mattis in id est. Lorem
                   ipsum dolor sit amet, consectetur adipiscing elit. Aliquam erat
-                  volutpat. Sed at libero varius, ultricies tortor in, scelerisque leo.
-                  Mauris ac odio augue. Morbi scelerisque leo nulla, eget porta neque
-                  ornare in. Fusce dictum posuere risus, eget lobortis diam mollis eget.
-                  Suspendisse aliquam facilisis gravida. Integer pretium laoreet lectus
-                  ut gravida. Mauris a augue risus. Aliquam eu euismod nulla, ut
-                  pulvinar magna.
+                  volutpat.
                 </p>
               </div>
             </div>
