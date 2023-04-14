@@ -10,7 +10,7 @@ const Work = () => {
   )
   return (
     <div id="work" className="content-detail">
-      <h1>Recent Work</h1>
+      <h1>Work</h1>
       <Container>
         <Row>
           {workList}

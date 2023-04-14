@@ -44,7 +44,9 @@ a:hover {
 }
 
 .content-detail {
-    padding: inherit;
+    padding-left: inherit;
+    padding-right: inherit;
+    padding-bottom: inherit;
     padding-top: 100px;
     height: 100vh;
 }

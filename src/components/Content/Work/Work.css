@@ -9,3 +9,11 @@
     width: auto;
     height: auto;
 }
+.work-detail:hover {
+    background: lavender;
+    color: white;
+}
+
+.category {
+    font-weight: lighter;
+}

@@ -3,6 +3,8 @@ import Container from 'react-bootstrap/Container';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import logo from './../../../assets/cv.jpeg'
+import React from 'react';
+import { Button } from 'react-bootstrap';
 
 const About = () => {
   return (
@@ -14,20 +16,15 @@ const About = () => {
               <img className="circle-image"
                    src={logo}
                    alt="Circle"/>
-              <p className="text">Your text here</p>
+                <Button className="button">Download CV</Button>
           </Col>
           <Col>
             <div className="talking-box">
               <div className="arrow"></div>
               <div className="content">
                 <p>
-                  Maecenas ultricies turpis quis mauris pretium, id lacinia libero
-                  congue. Nam aliquet eget sem at dictum. Integer massa felis, faucibus
-                  sed lorem quis, tincidunt pulvinar neque. Sed fringilla, diam in porta
-                  convallis, elit enim rhoncus orci, fermentum condimentum lectus neque
-                  vel nisl. Nunc ac dui vitae urna tincidunt mattis in id est. Lorem
-                  ipsum dolor sit amet, consectetur adipiscing elit. Aliquam erat
-                  volutpat.
+                  As a software engineer with ERP, e-commerce, payments and fintech experience,
+                  I'm passionate about delivering high-quality systems that give my clients the power to manage their businesses more effectively.
                 </p>
               </div>
             </div>
