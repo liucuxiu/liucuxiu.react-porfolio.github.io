@@ -2,7 +2,6 @@ import  ReactDOM  from 'react-dom/client';
 import React from 'react'
 import SideBar from './components/SideBar/SideBar';
 import Content from './components/Content/Content';
-// import 'bootstrap/dist/css/bootstrap.min.css';
 import './styles/style.css';
 
 const App = () => {

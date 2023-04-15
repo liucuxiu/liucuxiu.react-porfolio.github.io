@@ -11,7 +11,7 @@ const Home = () => {
              alt="Circle"/>
         <h2><b>Minh Tu Phan</b></h2>
         <div className="typewriter">
-          <p>Hello! I am a software engineer and a photographer.</p>
+          <p>Hello! I am a software engineer.</p>
         </div>
         <div>
           <CiInstagram/>

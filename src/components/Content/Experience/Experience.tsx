@@ -4,6 +4,7 @@ import Col from 'react-bootstrap/Col';
 import { experiences } from './data/experience';
 import ExperienceDetail from './ExperienceDetail';
 import './Experience.css'
+
 const Experience = () => {
   const experienceList = experiences.map(exp =>
     <ExperienceDetail key={exp.id} experience={exp}/>
