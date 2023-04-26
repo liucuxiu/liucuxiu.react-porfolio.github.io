@@ -22,7 +22,19 @@ const Contact = () => {
 
   const handleSubmit = (event: any) => {
     event.preventDefault()
+    console.log("huhu")
+
     console.log(inputs)
+
+    fetch('http://localhost:8000/contact', {
+      method: 'POST',
+      body: JSON.stringify(inputs),
+      headers: {
+        'Content-Type': 'application/json'
+      }
+    }).then(r => {
+      console.log('ok')
+    })
   }
 
   return (
