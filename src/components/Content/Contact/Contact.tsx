@@ -22,8 +22,6 @@ const Contact = () => {
 
   const handleSubmit = (event: any) => {
     event.preventDefault()
-    console.log("huhu")
-
     console.log(inputs)
 
     fetch('http://localhost:8000/contact', {
